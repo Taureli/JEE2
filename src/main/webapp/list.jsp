@@ -10,7 +10,11 @@
 	<body>
 	<jsp:useBean id="DB" class="pl.servlet.service.DB" scope="application" />
 	
-	<h2>Wszystkie osoby w systemie:</h2><br>
+	<h2>Wszystkie osoby w systemie:</h2>
+	
+	<form action="index.jsp">
+    	<input type="submit" value="Powrot na strone glowna">
+	</form><br>
 	
 	<%
 	for(Osoba o : DB.zawartosc()){
@@ -42,10 +46,6 @@
 		
 	}
 	%><br>
-	
-	<form action="index.jsp">
-    	<input type="submit" value="Powrot na strone glowna">
-	</form>
 	
 	</body>
 </html>

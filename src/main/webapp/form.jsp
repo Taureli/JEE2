@@ -22,7 +22,7 @@
 			<br>
 			<br> Imie: <input type="text" name="imie" value="${osoba.imie}">
 			<br> Nazwisko: <input type="text" name="nazwisko" value="${osoba.nazwisko}"> <br>
-			<br> Data urodzenia: <input type="date" name="urodziny" value="${osoba.dataUr}"> <br>
+			<br> Data urodzenia: <input type="date" name="dataUr" value="${osoba.dataUr }"> <br>
 			
 			<br> Zawod: <br> 
 			<input type="radio" name="zawod" value="Nauczyciel"

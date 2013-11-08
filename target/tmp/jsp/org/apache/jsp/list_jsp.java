@@ -62,7 +62,11 @@ public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
       }
       out.write("\n");
       out.write("\t\n");
-      out.write("\t<h2>Wszystkie osoby w systemie:</h2><br>\n");
+      out.write("\t<h2>Wszystkie osoby w systemie:</h2>\n");
+      out.write("\t\n");
+      out.write("\t<form action=\"index.jsp\">\n");
+      out.write("    \t<input type=\"submit\" value=\"Powrot na strone glowna\">\n");
+      out.write("\t</form><br>\n");
       out.write("\t\n");
       out.write("\t");
 
@@ -96,10 +100,6 @@ public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
 	}
 	
       out.write("<br>\n");
-      out.write("\t\n");
-      out.write("\t<form action=\"index.jsp\">\n");
-      out.write("    \t<input type=\"submit\" value=\"Powrot na strone glowna\">\n");
-      out.write("\t</form>\n");
       out.write("\t\n");
       out.write("\t</body>\n");
       out.write("</html>");

@@ -79,8 +79,8 @@ public final class form_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t<br> Nazwisko: <input type=\"text\" name=\"nazwisko\" value=\"");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${osoba.nazwisko}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("\"> <br>\n");
-      out.write("\t\t\t<br> Data urodzenia: <input type=\"date\" name=\"urodziny\" value=\"");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${osoba.dataUr}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\t\t\t<br> Data urodzenia: <input type=\"date\" name=\"dataUr\" value=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${osoba.dataUr }", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("\"> <br>\n");
       out.write("\t\t\t\n");
       out.write("\t\t\t<br> Zawod: <br> \n");
